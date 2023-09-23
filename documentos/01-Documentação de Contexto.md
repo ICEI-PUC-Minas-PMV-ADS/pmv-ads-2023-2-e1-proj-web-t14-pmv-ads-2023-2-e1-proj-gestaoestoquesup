@@ -1,35 +1,50 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+A logística de um supermercado, principalmente na modernidade, não é uma tarefa fácil. São inúmeros produtos, com diferentes tipos de armazenamento e prazos de validade, além do volume que cada lote contém. Nesta perspectiva, segundo Philip Kotler, "A logística moderna não é apenas sobre movimentar mercadorias; trata-se de otimizar processos, reduzir custos e melhorar a qualidade do serviço ao cliente.". Dessa forma, faz-se necessário a melhoria desse sistema. 
+
+Dentre as dificuldades enfrentadas, observa-se um grande número de microempresários tendo prejuízos nas vendas com a perda da validade de seus produtos, além da falta de um monitoramento eficiente do estoque e da desinformação a respeito das demandas do público, visto que cada mês pode haver um comportamento diferente no que se refere as compras de determinados produtos. 
+
+Assim, faz-se necessário melhorar esse processo de estocagem dos donos de mercados e supermercados e torná-lo mais eficiente, por meio de um sistema inteligente, para que além de sanar o prejuízo, diminua, também, a triste realidade do desperdício de alimentos.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+O problema que se apresenta, e que este projeto visa abordar, é a falha na gestão de estoque em supermercados que acabam permitindo a perda de produtos, principalmente os perecíveis, gerando consequentemente um desperdício de alimento.
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
+### Objetivo Geral
+
+Desenvolver uma aplicação tecnológica baseada na rede mundial de computadores com a finalidade de controlar a gestão do estoque de supermercados.
  
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+### Objetivos Específicos
+
+* Definir as especificações do projeto do aplicativo
+* Levantar os requisitos funcionais e não funcionais do projeto do aplicativo
+* Desenvolver o código do aplicativo
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+De acordo com o artigo "Planejamento e Controle de Estoque nas Organizações" publicado no ano de 2015 pela Revista Gestão Industrial da Universidade Tecnológica Federal do Paraná:
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+"Para obtenção de melhores resultados, empresas de todos os segmentos devem se atentar a detalhes considerados de grande importância para a administração de uma organização, uma delas são a gestão e o controle de estoque."
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Portanto, a realização desse projeto é importante pela praticidade em obter resultados positivos para o supermercado auxiliando na redução de perdas de mercadorias, uma vez que, uma gestão manual de estoque pode ser demorada e suscetível a erros. 
+
+O aplicativo oferece uma maneira mais eficiente e eficaz de gerenciar produtos, economizando tempo e recursos.
+
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+Proprietários de Supermercados e Pequenos Mercados: Essa é a base principal, pois possuem o interesse direto em melhorar a eficiência de gerenciamento de estoque para reduzir perdas e maximizar os lucros.
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+Gerentes de Operações de Supermercados: Desempenham um papel-chave na execução das operações diárias podendo influenciar na decisão de adotar novas soluções de gestão de estoque.
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+Funcionários de Reposição: Pessoas encarregadas de repor os produtos nas prateleiras precisam de ferramentas fáceis de usar para manter o estoque organizado.
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+Empresas de Consultoria em Gestão de Estoque: Oferecer serviços de consultoria relacionados à gestão de estoque para supermercados, seu público-alvo também incluirá essas empresas.
+
+Fornecedores de Tecnologia: Envolver o uso de tecnologia, como software de gestão de estoque, podendo direcionar o projeto para empresas que desenvolvem soluções tecnológicas para o setor de varejo alimentar.
+
+Realizar pesquisas de mercado para entender as dores e necessidades específicas desses grupos e assim, adaptar sua solução de gerenciamento de estoque de acordo com esses requisitos.
+
 
