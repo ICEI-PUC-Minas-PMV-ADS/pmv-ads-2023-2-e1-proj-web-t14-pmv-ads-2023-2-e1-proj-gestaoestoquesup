@@ -1,8 +1,8 @@
 # Gestão de Estoque de Supermercado
 
-Análise e Desenvolvimento de Sistemas
+`Análise e Desenvolvimento de Sistemas`
 
-Semestre 1
+`Semestre 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
