@@ -1,25 +1,23 @@
-# Título do Projeto
+# Gestão de Estoque de Supermercado
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
-
-`SEMESTRE`
+Semestre 1
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+Alex Bizarria Bezerra
+Ewerton Magno Messias Oliveira
+Guilherme Vidal de Castro
+Milenna Beatriz Rodrigues dos Santos
+Rafael Antunes Parreiras Mileib
+Sarah Crepalde de Lima Carvalho Batista
 
 ## Orientador
 
-* Nome completo do professor
+Clóvis Lemos Tavares
 
 # Documentação
 
