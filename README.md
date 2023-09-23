@@ -8,11 +8,16 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-Alex Bizarria Bezerra 
+Alex Bizarria Bezerra
+
 Ewerton Magno Messias Oliveira 
+
 Guilherme Vidal de Castro 
+
 Milenna Beatriz Rodrigues dos Santos 
+
 Rafael Antunes Parreiras Mileib 
+
 Sarah Crepalde de Lima Carvalho Batista 
 
 ## Orientador
