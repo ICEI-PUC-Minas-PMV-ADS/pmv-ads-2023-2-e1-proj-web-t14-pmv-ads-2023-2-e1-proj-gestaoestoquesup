@@ -2,7 +2,7 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`Semestre 1`
+`2º Semestre 2023`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
