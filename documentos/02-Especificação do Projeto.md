@@ -7,15 +7,15 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2"> Diretoria da Empresa </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Proprietária de um supermercado local</td>
 </tr>
-<tr>
+<tr></tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Precisa de uma solução fácil de usar para gerenciar o estoque do seu supermercado, reduzindo perdas e maximizando lucros. Ela precisa de relatórios claros sobre vendas e estoque, além de alertas automáticos sobre produtos próximos à validade.</td>
 </tr>
 </tbody>
 </table>
