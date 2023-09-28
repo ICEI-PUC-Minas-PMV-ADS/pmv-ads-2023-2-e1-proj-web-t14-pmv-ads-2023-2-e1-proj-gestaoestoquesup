@@ -20,6 +20,53 @@
 </tbody>
 </table>
 
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2"> Gerência </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Gerente de Operações de Supermercado</td>
+</tr>
+<tr></tr>
+<td><b>Necessidades</b></td>
+<td>Precisa de uma solução que integre facilmente com os sistemas existentes do supermercado. Ele precisa de recursos avançados, como previsão de demanda, para otimizar as operações diárias.</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2"> Funcionário de supermercado </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Funcionário de Reposição</td>
+</tr>
+<tr></tr>
+<td><b>Necessidades</b></td>
+<td>Precisa de uma ferramenta intuitiva para reabastecer as prateleiras com os produtos que não estão na área de venda.</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2"> Auditoria </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Auditora de Perdas</td>
+</tr>
+<tr></tr>
+<td><b>Necessidades</b></td>
+<td>Precisa de uma ferramenta que facilite a identificação de padrões de perdas, gere relatórios detalhados e forneça insights sobre áreas de melhoria.</td>
+</tr>
+</tbody>
+</table>
 
 ## Histórias de Usuários
 
