@@ -1,10 +1,9 @@
 
 # Projeto de Interface
-
+Nosso projeto de interface oferece uma solução inteligente e eficiente para os desafios enfrentados por estabelecimentos desse setor. Através de uma plataforma intuitiva e de fácil navegação.
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
+Nosso diagrama simplifica a gestão de supermercados. Do login à tela inicial com categorias como Mercearia, Pereciveis, Perfumaria e Limpeza, oferecemos adição fácil de produtos. Destacamos inovações como "Produtos Perto da Validade" e "Produtos com Pouco Estoque". Ao clicar em detalhes, gestores acessam informações cruciais. Uma solução intuitiva para decisões ágeis e eficazes.
 
 
 ![Mind Maps (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146037542/087773aa-0482-465c-a6bb-7f89c91aa388)
