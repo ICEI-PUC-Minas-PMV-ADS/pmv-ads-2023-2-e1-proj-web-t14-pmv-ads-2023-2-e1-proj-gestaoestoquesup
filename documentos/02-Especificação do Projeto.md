@@ -81,7 +81,8 @@
 | Ana Silva (Proprietária) | Receber alertas automáticos quando os produtos estiverem próximos a validade | Evitar perdas financeiras  |                          
 | Carlos Oliveira (Gerente de Operações)| Uma integração suave da aplicação de gestão de estoque com os sistemas existentes do supermercado| Garantir uma transição sem problemas|                  
 |José Santos (Funcionário de Reposição)|Uma ferramenta para conferir a disponibilidade dos produtos no estoque.| Abastecer os produtos que não estão disponiveis na area de venda|
-|Fernanda Oliveira (Auditor de Perdas)|
+|Fernanda Oliveira (Auditor de Perdas)| Ser notificada automaticamente sobre picos incomuns de perdas | Investigação imediata e a implementação de medidas corretivas
+
 ## Requisitos do Projeto
 
 [Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
