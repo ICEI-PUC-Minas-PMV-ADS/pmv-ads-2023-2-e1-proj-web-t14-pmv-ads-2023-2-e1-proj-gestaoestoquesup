@@ -69,12 +69,6 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
 |EU COMO... `QUEM`         | QUERO/PRECISO ... `O QUE`                     |PARA ... `PORQUE`                                          |
 |--------------------------|-----------------------------------------------|-----------------------------------------------------------|
@@ -93,19 +87,25 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 | O sistema deve permitir o cadastro de novos produtos, incluindo informações como nome, código de barras, categoria e data de validade| Alta|
+| RF-02 | O aplicativo deve oferecer uma visão em tempo real do estoque, destacando produtos com baixo estoque ou próximos à data de validade  | Alta|
+| RF-03 | Alertas automáticos devem ser enviados para produtos próximos à validades ou com pouco estoque                                       | Alta|
 
 **Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 | O aplicativo deve ser responsivo mesmo em grandes volumes de dados | Média | 
+| RNF-02 | O tempo de resposta para consultas e atualizações deve ser rápido  | Baixa | 
+| RNF-03 |A interface do usuário deve ser intuitiva, facilitando o uso por usuários com diferentes níveis de habilidade técnica | Média | 
+| RNF-04 |O aplicativo deve ser compatível com uma variedade de dispositivos e navegadores | Alta | 
+| RNF-05 |Implementação de práticas de segurança para proteger dados sensíveis | Alta | 
+| RNF-06 |Controle de acesso para diferentes usuários com base em funções | Alta | 
+| RNF-07 |Integração suave com outros sistemas do supermercado, como sistemas de vendas e contabilidade |Média|
+
 
 **Prioridade: Alta / Média / Baixa. 
 
