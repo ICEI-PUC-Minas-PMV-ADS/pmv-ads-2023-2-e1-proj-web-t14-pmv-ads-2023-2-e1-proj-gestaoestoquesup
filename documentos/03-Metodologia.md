@@ -12,7 +12,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
+
 - Scrum Master: Sarah Crepalde de Lima Carvalho Batista
 - Product Owner: Guilherme Vidal de Castro
 - Equipe de Desenvolvimento: Alex Bizarria Bezerra, Ewerton Magno Messias Oliveira, Guilherme Vidal de Castro, Rafael Antunes Parreiras Mileib, Sarah Crepalde de Lima Carvalho Batista
