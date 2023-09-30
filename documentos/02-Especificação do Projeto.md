@@ -87,6 +87,7 @@
 | RF-01 | O sistema deve permitir o cadastro de novos produtos, incluindo informações como nome, código de barras, categoria e data de validade| Alta|
 | RF-02 | O aplicativo deve oferecer uma visão em tempo real do estoque, destacando produtos com baixo estoque ou próximos à data de validade  | Alta|
 | RF-03 | Alertas automáticos devem ser enviados para produtos próximos à validades ou com pouco estoque                                       | Alta|
+| RF-04 | O sistema deve ter diferentes níveis de acesso para os usuários                                                                      | Alta|
 
 **Prioridade: Alta / Média / Baixa. 
 
