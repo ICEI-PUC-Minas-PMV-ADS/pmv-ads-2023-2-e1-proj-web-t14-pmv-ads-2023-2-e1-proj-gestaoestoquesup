@@ -29,8 +29,8 @@ Tela em que é disponibilizado ao cliente um formulário de cadastro das informa
 ![Schematiq (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/978f7e57-1812-42bf-87ab-f178a4b8f15e)
 
 ### Gestão de Estoque
-A tela em que é disponibilizado ao 
-![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/1188e672-affd-414d-aae4-21c1028fed0d)
+A tela em que é disponibilizado ao cliente 
+![Schematiq (3)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/66048589-54bd-4bbf-a529-35705eb586d4)
 
 ### Gestão de Fornecedores
 Inserir texto explicativo
