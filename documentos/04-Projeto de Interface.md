@@ -21,5 +21,30 @@ Formulário inicial em que o usuário informa as credenciais recebidas para aces
 ![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/6e72adcc-2d9b-4e85-a506-040cac3b7334)
 
 ### Interface gráfica da aplicação
+Inserir texto explicação
+![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/050f55cf-d23f-4887-b5ef-e7b2b3c39691)
 
+### Cadastro de novos produtos
+Inserir texto explicativo
+![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/693b850c-14cc-447e-bd6e-c0fcd83511a3)
 
+### Gestão de Estoque
+Inserir texto explicativo
+![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/1188e672-affd-414d-aae4-21c1028fed0d)
+
+### Gestão de Fornecedores
+Inserir texto explicativo
+![5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/4080b41f-3e26-41aa-b9e0-64ac106169f9)
+
+### Módulo de Gestão
+Inserir texto explicativo
+![6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/3cf632a4-300a-487f-aea6-b6bacc58e61a)
+
+## Inserir Título
+Inserir texto explicativo
+
+![7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/db0eb430-e114-4caf-bbc1-be5a27c6df56)
+
+## Inserir Título
+Inserir texto explicativo
+![8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/d81db8e4-00d4-43a1-b3fc-6f855d1eeb05)
