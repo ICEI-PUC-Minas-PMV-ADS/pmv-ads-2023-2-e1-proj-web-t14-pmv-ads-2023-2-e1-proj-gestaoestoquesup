@@ -47,6 +47,6 @@ Neste módulo também estará presente a geração de relatório. O sistema ser�
 Neste formulário, dentro do módulo gestão, será possível cadastrar um novo usuário da aplicação e definir seus níveis de acesso que podem ser: funcionário, gerente ou administrador.
 ![7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/db0eb430-e114-4caf-bbc1-be5a27c6df56)
 
-### Auditoria
+### Função de Auditoria
 Neste formulário, dentro do módulo gestão, será possível consultar as operações executadas na aplicação permitindo completa gestão do eventos dentro do sistema.
 ![8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/d81db8e4-00d4-43a1-b3fc-6f855d1eeb05)
