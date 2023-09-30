@@ -16,20 +16,20 @@ Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
 ### Tela de Login
-Formulário inicial em que o usuário informa as credenciais recebidas para acessar a aplicação. A partir do login o usuário é direcionado a primeira tela do sistema com as opções de módulos disponíveis de acordo com o seu perfil de usuário.
+Formulário inicial em que o usuário informa as credenciais recebidas para acessar a aplicação #Estoque10#. A partir do login o usuário é direcionado a primeira tela do sistema com as opções de módulos disponíveis de acordo com o seu perfil de usuário.
 
 ![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/6e72adcc-2d9b-4e85-a506-040cac3b7334)
 
 ### Interface gráfica da aplicação
-Inserir texto explicação
+Tela inicial da aplicação que permite ao usuário acessar os módulos para visualizar ou executar as ações necessárias para, cadastrar um novo produto, gerenciar estoque, gerenciar fornecedores ou extrar relatório, cadastrar novos usuários e pesquisar operações de usuários dentro do sistema por meio da função de auditoria.
 ![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/050f55cf-d23f-4887-b5ef-e7b2b3c39691)
 
 ### Cadastro de novos produtos
-Inserir texto explicativo
-![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/693b850c-14cc-447e-bd6e-c0fcd83511a3)
+Tela em que é disponibilizado ao cliente um formulário de cadastro das informações de um novo produto, com informações de código de barras, categoria do produto, descrição do produto, data de validade, quantidade, preço unitário e lote.
+![Schematiq (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/978f7e57-1812-42bf-87ab-f178a4b8f15e)
 
 ### Gestão de Estoque
-Inserir texto explicativo
+A tela em que é disponibilizado ao 
 ![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/1188e672-affd-414d-aae4-21c1028fed0d)
 
 ### Gestão de Fornecedores
