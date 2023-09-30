@@ -4,7 +4,7 @@
 
 `2º Semestre 2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Nosso projeto visa transformar a gestão de supermercados, proporcionando uma solução inovadora e eficiente. Com uma interface intuitiva, gestores têm acesso simplificado às categorias principais, podendo elevar a gestão de supermercados, capacitando decisões estratégicas e otimizando operações diárias.
 
 ## Integrantes
 
