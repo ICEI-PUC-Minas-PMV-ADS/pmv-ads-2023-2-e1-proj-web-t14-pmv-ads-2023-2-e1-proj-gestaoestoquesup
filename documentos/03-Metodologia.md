@@ -23,6 +23,9 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 ### Processo
 
 [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
+
+Para o gerenciamento, organização e divisão de tarefas do presente projeto, utiliza-se a ferramenta "Project" do Github com a qual estruturou-se um painel contendo quatro quadros que representam respectivamente o Product Backlog, To Do, In Progress e Done. Apresenta-se abaixo a descrição de cada atividade:
+
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 - In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
