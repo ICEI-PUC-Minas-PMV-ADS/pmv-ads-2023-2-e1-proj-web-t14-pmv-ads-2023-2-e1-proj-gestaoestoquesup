@@ -29,22 +29,24 @@ Tela em que é disponibilizado ao cliente um formulário de cadastro das informa
 ![Schematiq (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/978f7e57-1812-42bf-87ab-f178a4b8f15e)
 
 ### Gestão de Estoque
-A tela em que é disponibilizado ao cliente 
-![Schematiq (3)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/66048589-54bd-4bbf-a529-35705eb586d4)
+A tela em que é disponibilizado ao cliente uma visão em tempo real do estoque, destacando produtos com baixo estoque ou próximos à data de validade. Alertas automáticos serão enviados para produtos com validade próxima ou com pouco estoque. O sistema permitirá a atualização automática do estoque sempre que uma compra feita ou um produto vendido por uma conexão com o ponto de venda.
+![Schematiq (3)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/66048589-54bd-4bbf-a529-35705eb586d4) 
 
 ### Gestão de Fornecedores
-Inserir texto explicativo
+A aplicação fornecerá um gerenciamento para manter um registro de fornecedores, incluindo detalhes de contato e histórico de compras. Isso permitirá uma gestão eficaz dos relacionamentos e facilitará a reposição de estoque. A tela abaixo mostra um formulário a ser preenchido pelo usuário para que as informações fiquem disponíveis no módulo de relatório para gerenciamento.
 ![5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/4080b41f-3e26-41aa-b9e0-64ac106169f9)
 
 ### Módulo de Gestão
-Inserir texto explicativo
+O módulo de gestão estará visível apenas para os usuários com perfil administrador ou gerente. Nesse módulo estará disponível o controle de acesso e segurança, auditoria e geração de relatórios. 
+
+## Geração de relatórios
+Neste módulo também estará presente a geração de relatório. O sistema será capaz de gerar relatórios regulares sobre o status do estoque, incluindo informações sobre produtos em baixa quantidade, produtos mais vendidos e histórico de vendas. Esses relatórios devem ser acessíveis aos gerentes e administrador. E poderá ser gerados no formato pdf ou excel.
 ![6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/3cf632a4-300a-487f-aea6-b6bacc58e61a)
 
-## Inserir Título
-Inserir texto explicativo
-
+## Cadastro de usuário
+Neste formulário, dentro do módulo gestão, será possível cadastrar um novo usuário da aplicação e definir seus níveis de acesso que podem ser: funcionário, gerente ou administrador.
 ![7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/db0eb430-e114-4caf-bbc1-be5a27c6df56)
 
-## Inserir Título
-Inserir texto explicativo
+## Auditoria
+Neste formulário, dentro do módulo gestão, será possível consultar as operações executadas na aplicação permitindo completa gestão do eventos dentro do sistema.
 ![8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/d81db8e4-00d4-43a1-b3fc-6f855d1eeb05)
