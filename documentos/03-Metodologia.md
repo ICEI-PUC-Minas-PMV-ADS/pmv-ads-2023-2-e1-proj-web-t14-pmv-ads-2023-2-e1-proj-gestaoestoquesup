@@ -29,6 +29,7 @@ Para o gerenciamento, organização e divisão de tarefas do presente projeto, u
 - In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
+Segue abaixo a tela do Github Project utilizado pela equipe:
 
 ![Captura de Tela 2023-09-30 às 15 35 00](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/0aada910-cd47-40c6-a122-cf0e64be1fdf)
 
