@@ -90,6 +90,7 @@
 | RF-04 | Controle de acesso e segurança. O sistema deve ter diferentes níveis de acesso para os usuários (funcionário, gerente e administrador| Alta|                                   
 | RF-05 | Geração de relatório. O sistema deve ser capaz de gerar relatórios regulares sobre o status do estoque,incluindo informações sobre produtos em baixa quantidade, produtos mais vendidos e histórico de vendas. Esses relatórios devem ser acessíveis aos gerentes.  | Alta|
 | RF-06 | Gerenciamento de Fornecedores. O sistema deve manter um registro de fornecedores, incluindo detalhes de contato e histórico de compras. Isso permite uma gestão eficaz dos relacionamentos e facilita a reposição de estoque.| Alta|
+| RF-07 | Integração com o Ponto de Venda (PDV). O sistema de gerenciamento de estoque deve ser integrado ao sistema de ponto de venda para garantir uma sincronização em tempo real entre as vendas e o estoque. Quando um produto é vendido, a quantidade disponível deve ser atualizada automaticamente no estoque.| Alta|
 
 Requisito Funcional: 
 
