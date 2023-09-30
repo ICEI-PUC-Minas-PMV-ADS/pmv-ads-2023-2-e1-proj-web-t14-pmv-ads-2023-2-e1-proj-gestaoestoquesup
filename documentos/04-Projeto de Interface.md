@@ -39,14 +39,14 @@ A aplicação fornecerá um gerenciamento para manter um registro de fornecedore
 ### Módulo de Gestão
 O módulo de gestão estará visível apenas para os usuários com perfil administrador ou gerente. Nesse módulo estará disponível o controle de acesso e segurança, auditoria e geração de relatórios. 
 
-## Geração de relatórios
+### Geração de relatórios
 Neste módulo também estará presente a geração de relatório. O sistema será capaz de gerar relatórios regulares sobre o status do estoque, incluindo informações sobre produtos em baixa quantidade, produtos mais vendidos e histórico de vendas. Esses relatórios devem ser acessíveis aos gerentes e administrador. E poderá ser gerados no formato pdf ou excel.
 ![6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/3cf632a4-300a-487f-aea6-b6bacc58e61a)
 
-## Cadastro de usuário
+### Cadastro de usuário
 Neste formulário, dentro do módulo gestão, será possível cadastrar um novo usuário da aplicação e definir seus níveis de acesso que podem ser: funcionário, gerente ou administrador.
 ![7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/db0eb430-e114-4caf-bbc1-be5a27c6df56)
 
-## Auditoria
+### Auditoria
 Neste formulário, dentro do módulo gestão, será possível consultar as operações executadas na aplicação permitindo completa gestão do eventos dentro do sistema.
 ![8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/146551414/d81db8e4-00d4-43a1-b3fc-6f855d1eeb05)
