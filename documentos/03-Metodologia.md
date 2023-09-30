@@ -54,7 +54,7 @@ Segue abaixo a tela do Github Project utilizado pela equipe:
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+Para o desenvolvimento e gestão do código fonte do objeto do presente projeto, utiliza-se a plataforma de hospedagem de software Github, bem como a ferramenta Project contida na mesma plataforma para a gestão dos processos e times. Para a construção do fluxo de processos do software foi utilizada a plataforma Miro. Já para criação do protótipo das telas do software foi utilizada a plataforma de design gráfico Canva.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
