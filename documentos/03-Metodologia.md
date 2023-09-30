@@ -1,8 +1,9 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+A metodologia tem como finalidade apresentar os métodos (sujeitos, ferramentas, processos, critérios etc.) empregados na pesquisa para se obter e analisar os dados (MOTTA-ROTH, 2003). Também permite ao pesquisador exercitar a sua criatividade “[...] na forma de articular teoria, métodos, achados experimentais, observacionais ou de qualquer outro tipo específico de resposta às indagações científicas”. (MINAYO, 2014, p. 44). 
 
+Dessa forma, esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
 
 ## Gerenciamento de Projeto
 A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
