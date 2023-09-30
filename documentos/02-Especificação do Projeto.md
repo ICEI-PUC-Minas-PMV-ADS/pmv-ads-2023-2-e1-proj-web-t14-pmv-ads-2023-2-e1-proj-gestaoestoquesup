@@ -88,8 +88,8 @@
 | RF-02 | O aplicativo deve oferecer uma visão em tempo real do estoque, destacando produtos com baixo estoque ou próximos à data de validade  | Alta|
 | RF-03 | Alertas automáticos devem ser enviados para produtos próximos à validades ou com pouco estoque                                       | Alta|
 | RF-04 | Controle de acesso e segurança. O sistema deve ter diferentes níveis de acesso para os usuários (funcionário, gerente e administrador| Alta|                                   
-| RF-05 | Geração de relatório. O sistema deve ser capaz de gerar relatórios regulares sobre o status do estoque, incluindo informações sobre produtos em | Alta|
-baixa quantidade, produtos mais vendidos e histórico de vendas. Esses relatórios devem ser acessíveis aos gerentes.                                                                     
+| RF-05 | Geração de relatório. O sistema deve ser capaz de gerar relatórios regulares sobre o status do estoque,incluindo informações sobre produtos em baixa quantidade, produtos mais vendidos e histórico de vendas. Esses relatórios devem ser acessíveis aos gerentes.  | Alta|
+                                                                   
 
 
 Requisito Funcional: 
