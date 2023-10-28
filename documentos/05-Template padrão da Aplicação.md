@@ -8,7 +8,8 @@ A tela apresenta a funcionalidade de cadastrar os produtos de supermercado e foi
 
 Exemplo da tela de cadastro de produtos:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/bcb8b03f-9293-4943-abf6-f5dbe5665359)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/08d6e290-f509-472e-8ca4-ec23ea81bb00)
+
 
 Figura 1 - tela de cadastro de produtos
 
