@@ -10,13 +10,7 @@ Nosso projeto visa transformar a gestão de supermercados, proporcionando uma so
 
 * Alex Bizarria Bezerra
 
-* Ewerton Magno Messias Oliveira 
-
 * Guilherme Vidal de Castro 
-
-* Milenna Beatriz Rodrigues dos Santos 
-
-* Rafael Antunes Parreiras Mileib 
 
 * Sarah Crepalde de Lima Carvalho Batista 
 
