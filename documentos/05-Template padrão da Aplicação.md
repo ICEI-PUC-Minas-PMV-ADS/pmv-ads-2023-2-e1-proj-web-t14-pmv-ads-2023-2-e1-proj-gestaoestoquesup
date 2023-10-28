@@ -13,6 +13,17 @@ Exemplo da tela de cadastro de produtos:
 
 Figura 1 - tela de cadastro de produtos
 
+**Tela de Listagem de Produtos**:
+
+Responsáveis: Alex, Guilherme e Sarah
+
+A tela abaixo apresenta a lista dos produtos cadastrados a partir das funcionalidades da tela Cadastro de Produto
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/9ebe32ea-e3e8-488b-a9ae-bd69e9d330f2)
+
+Figura 2 - tela de listagem de produtos
+
+
 
 > **Links Úteis**:
 >
