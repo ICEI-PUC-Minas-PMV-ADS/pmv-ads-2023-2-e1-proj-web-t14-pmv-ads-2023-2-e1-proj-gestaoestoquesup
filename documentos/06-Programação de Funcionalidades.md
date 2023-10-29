@@ -65,6 +65,7 @@ RF-02 O aplicativo deve oferecer uma visão em tempo real do estoque, destacando
 
 
 
+
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
 > - [JSON Tutorial](https://www.w3resource.com/JSON)
