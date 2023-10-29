@@ -58,10 +58,20 @@ RF-02 O aplicativo deve oferecer uma visão em tempo real do estoque, destacando
 - Guilherme
 - Sarah
 
+### Login
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/b1589666-7945-4a9d-8fd4-fd7b2cec974b)
 
+#### Requisito atendido
 
+RF
 
+#### Artefatos da funcionalidade
+
+- index.html
+- login.html
+- login.js
+- style.js
 
 
 
