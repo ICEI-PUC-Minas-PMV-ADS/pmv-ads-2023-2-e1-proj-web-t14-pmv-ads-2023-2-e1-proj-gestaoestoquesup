@@ -39,6 +39,11 @@ RF-01  O sistema deve permitir o cadastro de novos produtos, incluindo informaç
 
 ### Listagem de Produtos
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/39ab8846-6806-4661-9e21-e2e3824b04a1)
+
+#### Requisito atendido
+
+
 
 
 
