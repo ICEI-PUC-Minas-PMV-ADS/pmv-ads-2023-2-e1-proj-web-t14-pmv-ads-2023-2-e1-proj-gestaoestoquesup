@@ -12,8 +12,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
-
+RF-01  O sistema deve permitir o cadastro de novos produtos, incluindo informações como nome, descrição, código de barras, categoria e data de validade, preço unitário e quantidade inicial.
 
 #### Artefatos da funcionalidade
 
