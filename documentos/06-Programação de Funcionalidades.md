@@ -62,9 +62,10 @@ RF-02 O aplicativo deve oferecer uma visão em tempo real do estoque, destacando
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/b1589666-7945-4a9d-8fd4-fd7b2cec974b)
 
-#### Requisito atendido
+#### Requisito pretendido
 
-RF
+RF-04 Controle de acesso e segurança. O sistema deve ter diferentes níveis de acesso para os usuários (funcionário, gerente e administrador)
+Obs.: Espera-se que esse artefato atenda ao requisito funcional 04, considerando a contingência de tempo e conhecimento ainda não se pode completar a entrega. 
 
 #### Artefatos da funcionalidade
 
