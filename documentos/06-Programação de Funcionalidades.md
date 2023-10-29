@@ -43,6 +43,23 @@ RF-01  O sistema deve permitir o cadastro de novos produtos, incluindo informaç
 
 #### Requisito atendido
 
+RF-02 O aplicativo deve oferecer uma visão em tempo real do estoque, destacando produtos com baixo estoque ou próximos à data de validade.
+
+#### Artefatos da funcionalidade
+
+- cadastro.html
+- lista_cadastro.html
+- style.css
+- app.js
+
+#### Responsáveis
+
+- Alex
+- Guilherme
+- Sarah
+
+
+
 
 
 
