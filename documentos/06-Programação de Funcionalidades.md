@@ -24,8 +24,7 @@ RF-01  O sistema deve permitir o cadastro de novos produtos, incluindo informaç
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
-
+- cadastro.html
 
 #### Instruções de acesso
 
