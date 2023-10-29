@@ -34,8 +34,9 @@ RF-01  O sistema deve permitir o cadastro de novos produtos, incluindo informaç
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
+- Alex
+- Guilherme
+- Sarah
 
 
 
