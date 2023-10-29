@@ -23,6 +23,16 @@ A tela abaixo apresenta a lista dos produtos cadastrados a partir das funcionali
 
 Figura 2 - tela de listagem de produtos
 
+**Tela de Login**
+
+Responsáveis: Alex, Guilherme e Sarah
+
+A tela abaixo apresenta a lista dos produtos cadastrados a partir das funcionalidades da tela Cadastro de Produto
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/c4c5f677-60fd-4653-8c3e-58a38f84ffa0)
+
+Figura 3 - tela de login
+
 
 
 > **Links Úteis**:
