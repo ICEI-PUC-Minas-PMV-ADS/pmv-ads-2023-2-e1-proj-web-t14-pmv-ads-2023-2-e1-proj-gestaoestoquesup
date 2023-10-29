@@ -16,7 +16,10 @@ RF-01  O sistema deve permitir o cadastro de novos produtos, incluindo informaç
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+- cadastro.html
+- lista_cadastro.html
+- style.css
+- app.js
 
 
 #### Estrutura de Dados
