@@ -6,7 +6,8 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Cadastro de Produtos
 
-[Adicione imagem da funcionalidade/tela]
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-pmv-ads-2023-2-e1-proj-gestaoestoquesup/assets/133724013/0bd438f0-780f-4e3e-9d47-316e7042655f)
+
 
 
 #### Requisito atendido
