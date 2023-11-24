@@ -30,7 +30,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="password" class="text-info">Senha</label><br>
-                                <input type="text" name="password" id="password" class="form-control">
+                                <input type="password" name="password" id="password" class="form-control">
                             </div>
                             <div class="form-group text-right">                                
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
@@ -68,6 +68,16 @@
                     <div class="form-group">
                         <label for="email" class="text-info">email</label><br>
                         <input type="text" name="txt_email" id="txt_email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                                <label for="perfil" name="txt_perfil" id="txt_perfil" class="txt-info">Perfil</label><br>
+                                <select class="form-control">
+                                    <option value=""></option>
+                                    <option value="administrador">Administrador</option>
+                                    <option value="auditor">Auditor</option>
+                                    <option value="usuario">Usuário</option>
+                                    <option value="gerente">Gerente</option>
+                                </select>                                           
                     </div>
                     <div class="form-group">
                         <label for="senha" class="text-info">Senha</label><br>
@@ -118,6 +128,7 @@
             let login  = document.getElementById('txt_login').value;
             let nome   = document.getElementById('txt_nome').value;
             let email  = document.getElementById('txt_email').value;
+            let perfil  = document.getElementById('txt_perfil').value;
             let senha  = document.getElementById('txt_senha').value;
             let senha2 = document.getElementById('txt_senha2').value;
             if (senha != senha2) {
@@ -126,7 +137,7 @@
             }
 
             // Adiciona o usuário no banco de dados
-            addUser (nome, login, senha, email);
+            addUser (nome, login, senha, email, perfil);
             alert ('Usuário salvo com sucesso. Proceda com o login para ');
 
             // Oculta a div modal do login
@@ -135,11 +146,11 @@
         }
 
         // Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
-        document.getElementById ('login-form').addEventListener ('submit', processaFormLogin);
+        document.getElementById('login-form').addEventListener ('submit', processaFormLogin);
 
 
         // Associar salvamento ao botao
-        document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
+        document.getElementById('btn_salvar').addEventListener ('click', salvaLogin);        
     </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
