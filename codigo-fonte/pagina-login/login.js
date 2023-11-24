@@ -29,8 +29,8 @@ function generateUUID() { // Public Domain/MIT
 // Dados de usuários para serem utilizados como carga inicial
 const dadosIniciais = {
     usuarios: [
-        { "id": generateUUID (), "login": "admin", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com"},
-        { "id": generateUUID (), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com"},
+        { "id": generateUUID (), "login": "admin", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com", "perfil": "administrador"},
+        { "id": generateUUID (), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com", "perfil": "administrador"},
     ]
 };
 
@@ -101,11 +101,11 @@ function logoutUser () {
     window.location = LOGIN_URL;
 }
 
-function addUser (nome, login, senha, email) {
+function addUser (nome, login, senha, email, perfil) {
     
     // Cria um objeto de usuario para o novo usuario 
     let newId = generateUUID ();
-    let usuario = { "id": newId, "login": login, "senha": senha, "nome": nome, "email": email };
+    let usuario = {"id": newId, "login": login, "senha": senha, "nome": nome, "email": email, "perfil": perfil};
     
     // Inclui o novo usuario no banco de dados baseado em JSON
     db_usuarios.usuarios.push (usuario);
