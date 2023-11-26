@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #0c676e;
+            text-align: center;
+       }
+
+        .registration-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        form {
+            width: 48%; /* Ajuste a largura conforme necessário */
+            box-sizing: border-box;
+            margin-right: 2%;
+        }
+
+        form label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        form input {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            box-sizing: border-box;
+        }
+
+        form button {
+            width: calc(50% - 20px);
+            padding: 10px;
+            background-color: #0c676e;
+            color: white;
+            border: none;
+            cursor: pointer;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-left: 550px;
+            
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #0c676e;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table tr:hover {
+            background-color: #ddd;
+        }
+
+        table button {
+            padding: 5px;
+            background-color: #0c676e;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        table button:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cadastro de Produtos</h1>
+
+    <div class="registration-box">
+        <form id="productForm">
+            <label for="productId">ID:</label>
+            <input type="text" id="productId" required>
+
+            <label for="productName">Nome do Produto:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productExpiry">Validade:</label>
+            <input type="date" id="productExpiry" required>
+
+            <label for="productPrice">Preço Unitário:</label>
+            <input type="number" id="productPrice" required>
+
+            <button type="button" onclick="addProduct()">Adicionar Produto</button>
+        </form>
+
+        <form id="productForm">
+            <label for="productBarcode">Código de Barras:</label>
+            <input type="text" id="productBarcode" required>
+
+            <label for="productQuantity">Quantidade:</label>
+            <input type="number" id="productQuantity" required>
+
+            <label for="productCategory">Categoria:</label>
+            <input type="text" id="productCategory" required>
+
+            
+        </form>
+    </div>
+
+    <table id="productTable">
+        <tr>
+            <th>ID</th>
+            <th>Nome do Produto</th>
+            <th>Validade</th>
+            <th>Preço Unitário</th>
+            <th>Código de Barras</th>
+            <th>Quantidade</th>
+            <th>Categoria</th>
+            <th>Ações</th>
+        </tr>
+    </table>
+
+    <script>
+        function getSavedProducts() {
+            return JSON.parse(localStorage.getItem("products")) || [];
+        }
+
+        function saveProducts(products) {
+            localStorage.setItem("products", JSON.stringify(products));
+        }
+
+        function displayProducts() {
+            var products = getSavedProducts();
+            var table = document.getElementById("productTable");
+            table.innerHTML = "<tr><th>ID</th><th>Nome do Produto</th><th>Validade</th><th>Preço Unitário</th><th>Código de Barras</th><th>Quantidade</th><th>Categoria</th><th>Ações</th></tr>";
+
+            for (var i = 0; i < products.length; i++) {
+                var row = table.insertRow(-1);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var cell5 = row.insertCell(4);
+                var cell6 = row.insertCell(5);
+                var cell7 = row.insertCell(6);
+                var cell8 = row.insertCell(7);
+
+                cell1.innerHTML = products[i].id;
+                cell2.innerHTML = products[i].name;
+                cell3.innerHTML = products[i].expiry;
+                cell4.innerHTML = products[i].price;
+                cell5.innerHTML = products[i].barcode;
+                cell6.innerHTML = products[i].quantity;
+                cell7.innerHTML = products[i].category;
+                cell8.innerHTML = '<button onclick="editProduct(' + i + ')">Editar</button> <button onclick="deleteProduct(' + i + ')">Excluir</button>';
+            }
+        }
+
+        function addProduct() {
+            var productId = document.getElementById("productId").value;
+            var productName = document.getElementById("productName").value;
+            var productExpiry = document.getElementById("productExpiry").value;
+            var productPrice = document.getElementById("productPrice").value;
+            var productBarcode = document.getElementById("productBarcode").value;
+            var productQuantity = document.getElementById("productQuantity").value;
+            var productCategory = document.getElementById("productCategory").value;
+
+            if (productId && productName && productExpiry && productPrice && productBarcode && productQuantity && productCategory) {
+                var products = getSavedProducts();
+                products.push({
+                    id: productId,
+                    name: productName,
+                    expiry: productExpiry,
+                    price: productPrice,
+                    barcode: productBarcode,
+                    quantity: productQuantity,
+                    category: productCategory
+                });
+
+                saveProducts(products);
+                displayProducts();
+
+                document.getElementById("productId").value = "";
+                document.getElementById("productName").value = "";
+                document.getElementById("productExpiry").value = "";
+                document.getElementById("productPrice").value = "";
+                document.getElementById("productBarcode").value = "";
+                document.getElementById("productQuantity").value = "";
+                document.getElementById("productCategory").value = "";
+            } else {
+                alert("Por favor, preencha todos os campos.");
+            }
+        }
+
+        function editProduct(index) {
+            var products = getSavedProducts();
+            var product = products[index];
+
+            document.getElementById("productId").value = product.id;
+            document.getElementById("productName").value = product.name;
+            document.getElementById("productExpiry").value = product.expiry;
+            document.getElementById("productPrice").value = product.price;
+            document.getElementById("productBarcode").value = product.barcode;
+            document.getElementById("productQuantity").value = product.quantity;
+            document.getElementById("productCategory").value = product.category;
+
+            products.splice(index, 1);
+            saveProducts(products);
+
+            displayProducts();
+        }
+
+        function deleteProduct(index) {
+            var products = getSavedProducts();
+            products.splice(index, 1);
+            saveProducts(products);
+            displayProducts();
+        }
+
+        displayProducts();
+    </script>
+
+</body>
+</html>

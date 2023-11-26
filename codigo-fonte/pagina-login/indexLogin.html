@@ -10,41 +10,86 @@
     <script src="login.js"></script>
 
     <script>
-        // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login        
+        // Verifica se o usuário já está logado e, se negativo, redireciona para a tela de login        
         if (!usuarioCorrente.login) {
             window.location.href = LOGIN_URL;
         }
 
         function exibeUsuarios() {
-            
             // Popula a tabela com os registros do banco de dados
             let listaUsuarios = '';
             for (i = 0; i < db_usuarios.usuarios.length; i++) {
                 let usuario = db_usuarios.usuarios[i];
-                listaUsuarios += `<tr><td scope="row">${usuario.nome}</td><td>${usuario.login}</td><td>${usuario.email}</td><td>${usuario.perfil}</td></tr>`;
+                listaUsuarios += `<tr>
+                                    <td>${usuario.nome}</td>
+                                    <td>${usuario.login}</td>
+                                    <td>${usuario.senha}</td>
+                                    <td>${usuario.email}</td>
+                                    <td><button class="btn_excluir" data-index="${i}">Excluir</button></td>
+                                 </tr>`;
             }
 
             // Substitui as linhas do corpo da tabela
-            document.getElementById("table-usuarios").innerHTML = listaUsuarios
+            document.getElementById("table-usuarios").innerHTML = listaUsuarios;
+        }
 
+        function adicionarUsuario(nome, login, senha, email) {
+            // Adiciona um novo usuário ao banco de dados simulado
+            db_usuarios.usuarios.push({ nome: nome, login: login, senha: senha, email: email });
+            // Atualiza a tabela de usuários
+            exibeUsuarios();
+        }
+
+        function excluirUsuario(index) {
+            // Remove o usuário correspondente do banco de dados
+            db_usuarios.usuarios.splice(index, 1);
+            // Atualiza a tabela de usuários
+            exibeUsuarios();
         }
 
         function initPage() {
-
             // Associa a função de logout ao botão
             document.getElementById('btn_logout').addEventListener('click', logoutUser);
 
             // Informa o nome do usuário logado
             document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
 
-            // Lista os usuários 
-            exibeUsuarios ();
+            // Lista os usuários
+            exibeUsuarios();
+
+            // Adicionar evento para adicionar usuário
+            document.getElementById('form_adicionar_usuario').addEventListener('submit', function (event) {
+                event.preventDefault(); // Impede o envio padrão do formulário
+
+                // Coleta os dados do formulário
+                let nome = document.getElementById('input_nome').value;
+                let login = document.getElementById('input_login').value;
+                let senha = document.getElementById('input_senha').value;
+                let email = document.getElementById('input_email').value;
+
+                // Adiciona o novo usuário ao banco de dados e atualiza a tabela
+                adicionarUsuario(nome, login, senha, email);
+
+                // Limpa o formulário após adicionar o usuário
+                document.getElementById('form_adicionar_usuario').reset();
+            });
+
+            // Associar função de exclusão aos botões de cada linha na tabela
+            document.getElementById('table-usuarios').addEventListener('click', function (event) {
+                if (event.target.classList.contains('btn_excluir')) {
+                    let index = event.target.dataset.index;
+                    excluirUsuario(index);
+                }
+            });
+        }
+
+        function redirectToListaCadastro() {
+            window.location.href = 'Lista_Cadastro1.html';
         }
 
         // Associa ao evento de carga da página a função para verificar se o usuário está logado
         window.addEventListener('load', initPage);
     </script>
-
 </head>
 
 <body>
@@ -52,6 +97,13 @@
     <button id="btn_logout">Efetuar Logout</button>
     
     <div class="container">
+        <form id="form_adicionar_usuario">
+            <input type="text" id="input_nome" placeholder="Nome" required>
+            <input type="text" id="input_login" placeholder="Login" required>
+            <input type="password" id="input_senha" placeholder="Senha" required>
+            <input type="text" id="input_email" placeholder="E-mail" required>
+            <button type="submit">Adicionar Usuário</button>
+        </form>
         <div class="row">
             <div class="col-sm-12">
                 <table id="grid-usuarios" class="table table-striped">
@@ -59,8 +111,8 @@
                         <tr>
                             <th scope="col">Nome</th>
                             <th scope="col">login</th>
+                            <th scope="col">Senha</th>
                             <th scope="col">E-mail</th>
-                            <th scope="col">Perfil</th>
                         </tr>
                     </thead>
                     <tbody id="table-usuarios">
@@ -72,6 +124,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <button onclick="redirectToListaCadastro()">Ir para Lista de Cadastro</button>
             </div>
         </div>
     </div>
