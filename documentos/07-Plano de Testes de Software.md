@@ -11,7 +11,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |Caso de Teste    | CT-X - Cadastro de dados |
 |:---|:---|CT-01: Verificar o funcionamento do cadastro de informações. | 
 
-| Requisitos Associados | RF-01	O sistema deve permitir o cadastro de novos produtos, incluindo informações como nome, descrição, código de barras, categoria e dados de validade, preço unitário e quantidade inicial. | 
+| Requisitos Associados | RF-01 | O sistema deve permitir o cadastro de novos produtos, incluindo informações como nome, descrição, código de barras, categoria e dados de validade, preço unitário e quantidade inicial. | 
 
 | Objetivo do Teste | Verificar se aplicação permite o cadastro de novos produtos, incluindo informações como nome, descrição, código de barras, categoria e dados de validade, preço unitário e quantidade inicial. |
 
