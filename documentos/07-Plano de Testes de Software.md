@@ -24,3 +24,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Visualização correta da data de validade dos produtos cadastrados. | 
 | Responsável pela elaborar do caso de Teste | Sarah | 
 
+| CT-03 - Controle de estoque |
+|:---|:---|CT-01: Verificar o funcionamento do cadastro de informações. |
+| Requisitos Associados | RF-03 |Atualização de estoque. Alertas automáticos devem ser enviados para produtos próximos à validades ou com pouco estoque. O sistema deve permitir a atualização automática do estoque sempre que uma compra for feita ou um produto for vendido. A quantidade disponível deve ser atualizada em tempo real.| 
+| Objetivo do Teste | Verificar se aplicação permite uma visualização facilitada da validade dos produtos cadastrados. |
+| Passos | 1. Acessar a home da aplicação; 2. Digitar o nome do produto e categoria pesquisa; 3. Confirmar informações que aparecem para visualiza | 
+| Critérios de êxito | Visualização correta da data de validade dos produtos cadastrados. | 
+| Responsável pela elaborar do caso de Teste | Sarah | 
+
